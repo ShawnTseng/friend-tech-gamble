@@ -31,3 +31,15 @@ Force close
 
 > redis-cli shutdown
 
+### Build docker on wsl
+> sudo docker build . -t nextjs-docker --network host
+
+### Run docker image
+> docker run -p 3000:3000 nextjs-docker
+
+### Docker debug
+> docker run {imageName} tail -f /dev/null
+> docker exec -ti containerID /bin/bash
+> or
+> docker exec -ti containerID sh
+
