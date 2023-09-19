@@ -42,4 +42,3 @@ Force close
 > docker exec -ti containerID /bin/bash
 > or
 > docker exec -ti containerID sh
-
